@@ -4,6 +4,13 @@ This is a multi-user drawing application, similar to a simplified Figma or Miro 
 
 This project was built to explore the challenges of real-time state synchronization, high-performance canvas rendering, and WebSocket communication.
 
+Live Demo
+The live version of this project is deployed on Render:
+
+➡️ https://collaborative-canvas-project.onrender.com/ ⬅️ (Please replace this with your actual demo link)
+
+See the "How to Test" section below for instructions on opening multiple tabs to test the real-time features.
+
 ## 🚀 How to Run
 
 1.  **Install Dependencies:**
