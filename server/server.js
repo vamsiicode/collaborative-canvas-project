@@ -10,7 +10,14 @@ const RoomManager = require('./rooms');
 const app = express();
 const server = http.createServer(app);
 // Use Socket.io as required for WebSockets
-const io = new Server(server); 
+// This is your NEW, more robust line
+const io = new Server(server, {
+    // We add a longer "ping" timeout.
+    // This tells the server to wait up to 60 seconds for a
+    // "pong" response from the client before giving up.
+    // This is more than enough for Render's free tier.
+    pingTimeout: 60000, 
+});
 
 const PORT = process.env.PORT || 3000;
 const ROOM_NAME = 'default_room';
