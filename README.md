@@ -35,6 +35,6 @@ This project's goal was to nail the performance and real-time sync, but that lef
 
 ## ⏰ Time Spent
 
-* **Estimated time for this version:** 6 hours.
-    * (Getting the basic drawing and WebSocket connection: 2 hours)
-    * (Debugging the lag, disappearing lines, and race conditions: 4 hours 😅)
+* **Estimated time for this version:** 18 hours.
+    * (Getting the basic drawing and WebSocket connection: 12 hours)
+    * (Debugging the lag, disappearing lines, and race conditions: 6 hours 😅)
