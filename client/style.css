@@ -1,0 +1,60 @@
+/* collaborative-canvas/client/style.css */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#toolbar {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#toolbar button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 4px;
+}
+
+#toolbar button.active {
+    background: #cceeff;
+    border-color: #007bff;
+}
+
+#drawing-canvas {
+    border: 1px solid #333;
+    cursor: crosshair;
+    background-color: #fff;
+    /* Ensure it takes up most of the screen space */
+    width: 80vw;
+    height: 80vh;
+}
+
+#user-list {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#users-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
