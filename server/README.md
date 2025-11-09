@@ -8,7 +8,7 @@ Live Demo
 The live version of this project is deployed on Render:
 
 ➡️ https://collaborative-canvas-project.onrender.com/ ⬅️ (Please replace this with your actual demo link)
-
+c
 See the "How to Test" section below for instructions on opening multiple tabs to test the real-time features.
 
 ## 🚀 How to Run
@@ -42,6 +42,6 @@ This project's goal was to nail the performance and real-time sync, but that lef
 
 ## ⏰ Time Spent
 
-* **Estimated time for this version:** 6 hours.
-    * (Getting the basic drawing and WebSocket connection: 2 hours)
-    * (Debugging the lag, disappearing lines, and race conditions: 4 hours 😅)
+* **Estimated time for this version:**  18 hours.
+    * (Getting the basic drawing and WebSocket connection: 12 hours)
+    * (Debugging the lag, disappearing lines, and race conditions: 6 hours 😅)
