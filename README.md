@@ -7,7 +7,7 @@ This project was built to explore the challenges of real-time state synchronizat
 Live Demo
 The live version of this project is deployed on Render:
 
-➡️ https://collaborative-canvas-project.onrender.com/ ⬅️ (Please replace this with your actual demo link)
+➡️ https://collaborative-canvas-project.onrender.com/ ⬅️
 c
 See the "How to Test" section below for instructions on opening multiple tabs to test the real-time features.
 
